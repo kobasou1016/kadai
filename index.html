@@ -1,28 +1,55 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>ToDoリスト</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>ToDoリスト</h1>
-  </header>
-
-  <main>
-    <section id="tasks">
-      <h2>やること一覧</h2>
-      <ul>
-        <li>レポートを提出する</li>
-        <li>部屋を片付ける</li>
-        <li>メールを確認する</li>
-      </ul>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2025 ToDo Inc.</p>
-  </footer>
+    <header>
+        <h1>ToDo List</h1>
+    </header>
+    
+    <main>
+        <section id="todo-section">
+            <h2>Pending Tasks</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Task</th>
+                        <th>Status</th>
+                        <th>Priority</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Create presentation materials</td>
+                        <td>Incomplete</td>
+                        <td>★★★</td>
+                    </tr>
+                    <tr>
+                        <td>Prepare for meeting</td>
+                        <td>Incomplete</td>
+                        <td>★★</td>
+                    </tr>
+                    <tr>
+                        <td>Go shopping</td>
+                        <td>Incomplete</td>
+                        <td>★</td>
+                    </tr>
+                    <tr>
+                        <td>Reading</td>
+                        <td>Incomplete</td>
+                        <td>★</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 ToDo App</p>
+    </footer>
 </body>
 </html>
