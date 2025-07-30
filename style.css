@@ -52,4 +52,12 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+=======
+  font-family: NotoSansJP;
+  background-color: #121212;
+  color: #eeeeee;
+}
+
+h1 {
+  color: #eeeeee;
 }
