@@ -1,56 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToDo List</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Your ToDo List</title>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>ToDo List</h1>
-    </header>
-    
-    <main>
-        <section id="todo-section">
-            <h2>Pending Tasks</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Task</th>
-                        <th>Status</th>
-                        <th>Priority</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Create presentation materials</td>
-                        <td>Incomplete</td>
-                        <td>★★★</td>
-                    </tr>
-                    <tr>
-                        <td>Prepare for meeting</td>
-                        <td>Incomplete</td>
-                        <td>★★</td>
-                    </tr>
-                    <tr>
-                        <td>Go shopping</td>
-                        <td>Incomplete</td>
-                        <td>★</td>
-                    </tr>
-                    <tr>
-                        <td>Reading</td>
-                        <td>Incomplete</td>
-                        <td>★</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2024 ToDo App</p>
-    </footer>
-  
+  <header>
+    <h1>Your ToDo List</h1>
+  </header>
+
+  <main>
+    <!-- Pending Tasks Section -->
+    <section id="tasks">
+      <h2>Pending Tasks</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Task</th>
+            <th>Deadline</th>
+            <th>Priority</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Work</td>
+            <td>Submit report</td>
+            <td>2025-08-01</td>
+            <td>★★★</td>
+          </tr>
+          <tr>
+            <td>Private</td>
+            <td>Tidy up room</td>
+            <td>2025-08-03</td>
+            <td>★★</td>
+          </tr>
+          <tr>
+            <td>Work</td>
+            <td>Check email</td>
+            <td>2025-08-02</td>
+            <td>★</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <!-- Completed Tasks Section -->
+    <section id="tasks-completed">
+      <h2>Completed</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Task</th>
+            <th>Deadline</th>
+            <th>Priority</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Private</td>
+            <td>Take out trash</td>
+            <td>2025-07-29</td>
+            <td>★★</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 ToDo Inc.</p>
+  </footer>
 </body>
 </html>
