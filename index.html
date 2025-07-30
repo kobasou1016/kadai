@@ -1,68 +1,57 @@
 //tinpo
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ToDoリスト</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>ToDoリスト</h1>
+        <h1>ToDo List</h1>
     </header>
-
-<main>
-    <section>
-        <h2>未完了タスク</h2>
-        <h3>仕事</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>タスク内容</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>パソコンの買い替え</td>
-                </tr>
-            </tbody>
-        </table>
-        <h3>プライベート</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>タスク内容</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>部屋の掃除</td>
-                </tr>
-                <tr>
-                    <td>買い物</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-    <section>
-        <h2>完了済み</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>タスク内容</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>ゴミ出し</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-</main>
-
+    
+    <main>
+        <section id="todo-section">
+            <h2>Pending Tasks</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Task</th>
+                        <th>Status</th>
+                        <th>Priority</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Create presentation materials</td>
+                        <td>Incomplete</td>
+                        <td>★★★</td>
+                    </tr>
+                    <tr>
+                        <td>Prepare for meeting</td>
+                        <td>Incomplete</td>
+                        <td>★★</td>
+                    </tr>
+                    <tr>
+                        <td>Go shopping</td>
+                        <td>Incomplete</td>
+                        <td>★</td>
+                    </tr>
+                    <tr>
+                        <td>Reading</td>
+                        <td>Incomplete</td>
+                        <td>★</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    
     <footer>
-        <p>© 2025 ToDo Inc.</p>
+        <p>&copy; 2024 ToDo App</p>
     </footer>
+  
 </body>
 </html>
